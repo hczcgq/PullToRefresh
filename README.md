@@ -6,7 +6,6 @@
 
 ##Layout
 
-
 ``` xml
   <com.chico.pulltorefresh.library.PullToRefreshLayout
         android:id="@+id/pull_refresh_layout"
@@ -31,6 +30,8 @@
         <include layout="@layout/load_more" />
     </com.chico.pulltorefresh.library.PullToRefreshLayout>
 ```
+
+##Activity
 ```java
 	mPullToRefreshLayout = (PullToRefreshLayout) findViewById(R.id.pull_refresh_layout);
 	mPullToRefreshLayout.setOnRefreshListener(new OnRefreshListener() {
